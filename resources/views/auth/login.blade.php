@@ -64,6 +64,17 @@
                                 @endif
                             </div>
                         </div>
+
+                        <div class="form-group row mb-0">
+                            <div class="col-md-8 offset-md-4">
+                                <a class="btn btn-link" href="{{ url('login/facebook') }}">
+                                    {{ __('Facebook login') }}
+                                </a>
+                                <a class="btn btn-link" href="{{ url('login/google') }}">
+                                    {{ __('Google+ login') }}
+                                </a>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
